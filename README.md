@@ -1,27 +1,30 @@
-# 🍽️ Restaurant Ordering System
+# 🍴 Food Festa - Restaurant Ordering System
 
-A comprehensive and user-friendly **Restaurant Ordering System** designed to streamline the food ordering process for customers, manage menus seamlessly, and assist restaurant staff in handling orders efficiently.
-
----
-
-## 🚀 Features
-
-- **User Authentication & Management:** Secure sign-up, login, and profile management for customers and admins.
-- **Interactive Menu:** Browse food items categorized by starters, main courses, desserts, beverages, etc., with descriptions and pricing.
-- **Cart & Checkout:** Add/remove items, adjust quantities, review order summaries, and proceed to secure checkout.
-- **Order Management (Admin/Staff):** Real-time tracking and updating of incoming orders (e.g., *Pending*, *Preparing*, *Out for Delivery*, *Completed*).
-- **Responsive Design:** Optimized for seamless usage across mobile, tablet, and desktop devices.
+**Food Festa** is a modern, responsive web application for online restaurant ordering. Built using pure frontend technologies, it features dynamic menu rendering, live item search, category filtering, and an interactive slide-over cart with automatic total and tax calculations.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-*(Update these technologies based on what your project actually uses)*
+- **Dynamic Food Menu:** Displays menu items with real-time counters.
+- **Instant Search:** Quickly filter food items by name as you type.
+- **Category Filtering:** Filter items by categories like **Pizza**, **Burger**, **Biryani**, **Dessert**, and **Drinks**.
+- **Interactive Cart Sidebar:**
+  - Real-time cart item count badge.
+  - Slide-in cart sidebar with background overlay.
+  - Subtotal, 5% tax calculation, and order total.
+  - Options to place order or clear cart.
+- **Toast Notifications:** Instant visual feedback when items are added to the cart.
+- **Fully Responsive:** Styled using Tailwind CSS to look great on desktop, tablet, and mobile screens.
 
-- **Frontend:** HTML5, CSS3, JavaScript / React.js / Vue.js
-- **Backend:** Node.js, Express.js / Python (Flask/Django) / Java
-- **Database:** MongoDB / MySQL / PostgreSQL
-- **Styling:** Tailwind CSS / Bootstrap
+---
+
+## 🛠️ Built With
+
+- **HTML5:** Semantic markup and layout structure.
+- **Tailwind CSS (CDN):** Modern utility-first CSS framework for responsive styling.
+- **JavaScript (Vanilla JS):** Client-side state handling, search/filter algorithms, and cart management.
+- **Custom CSS:** Additional animations and fine-tuned UI tweaks (`style.css`).
 
 ---
 
@@ -30,10 +33,7 @@ A comprehensive and user-friendly **Restaurant Ordering System** designed to str
 ```text
 Restaurant-Ordering-System/
 │
-├── frontend/          # Frontend source code (UI components, views, assets)
-├── backend/           # Backend server, API routes, and controllers
-├── database/          # Database models, schemas, and connection scripts
-├── public/            # Static assets (images, icons)
-├── .env.example       # Environment variables template
-├── package.json       # Project dependencies and scripts
-└── README.md          # Project documentation
+├── index.html       # Main webpage structure
+├── style.css        # Custom styles and animations
+├── script.js        # Data structures, event listeners, and cart logic
+└── README.md        # Project documentation
