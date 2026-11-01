@@ -4,7 +4,18 @@
 
 ---
 
+## ✨ Features
 
+- **Dynamic Food Menu:** Displays menu items with real-time counters.
+- **Instant Search:** Quickly filter food items by name as you type.
+- **Category Filtering:** Filter items by categories like **Pizza**, **Burger**, **Biryani**, **Dessert**, and **Drinks**.
+- **Interactive Cart Sidebar:**
+  - Real-time cart item count badge.
+  - Slide-in cart sidebar with background overlay.
+  - Subtotal, 5% tax calculation, and order total.
+  - Options to place order or clear cart.
+- **Toast Notifications:** Instant visual feedback when items are added to the cart.
+- **Fully Responsive:** Styled using Tailwind CSS to look great on desktop, tablet, and mobile screens.
 
 ---
 
