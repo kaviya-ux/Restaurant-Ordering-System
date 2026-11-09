@@ -1,5 +1,3 @@
-
-
 # 🍴 Food Festa - Restaurant Ordering System
 
 **Food Festa** is a modern, responsive web application for online restaurant ordering. Built using pure frontend technologies, it features dynamic menu rendering, live item search, category filtering, and an interactive slide-over cart with automatic total and tax calculations.
